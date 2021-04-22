@@ -33,3 +33,38 @@ function shuffle( array )
     }
     return array;
 };
+// Shuffles cards when page is refreshed or loads
+document.body.onload = startGame();
+// Starts a new game 
+function startGame()
+{
+    // Empty the openCards array
+    openedCards = [];
+    // Shuffles the deck
+    cards = shuffle( cards );
+    // Removes all exisiting classes from each card
+    for ( var i = 0; i < cards.length; i++ )
+    {
+        deck.innerHTML = "";
+        [].forEach.call( cards, function( item )
+        {
+            deck.appendChild( item );
+        } );
+        cards[ i ].classList.remove( "show", "open", "match", "disabled" );
+    }
+    // Resets moves
+    moves = 0;
+    counter.innerHTML = moves;
+    // Resets rating
+    for ( var i = 0; i < stars.length; i++ )
+    {
+        stars[ i ].style.visibility = "visible";
+    }
+    // Resets timer
+    second = 0;
+    minute = 0;
+    hour = 0;
+    var timer = document.querySelector( ".timer" );
+    timer.innerHTML = "0 mins 0 secs";
+    clearInterval( interval );
+}
