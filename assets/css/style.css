@@ -13,7 +13,7 @@
     --bg-light: #ddd;
     --bg-dark: #222;
     --bg-black: #000;
-    
+
     --txt-open: #1E88E5;
     --txt-matched: #7CB342;
     --txt-unmatched: #E53935;
@@ -22,4 +22,34 @@
     --txt-light: #ddd;
     --txt-dark: #222;
     --txt-black: #000;
+}
+
+/* ------------ Universal Styling ------------ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------ Basic Styling ------------ */
+
+body {
+    background: var(--bg-white);
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+header {
+    text-align: center;
 }
