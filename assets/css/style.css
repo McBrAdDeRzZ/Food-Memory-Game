@@ -235,3 +235,32 @@ header {
     color: var(--txt-white);
     border-radius: 1rem;
 }
+
+/* ------------ Media queries ------------ */
+
+@media (max-width: 320px) {
+    .deck {
+        width: 80%;
+    }
+    .deck .card {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        font-size: 22px;
+    }
+    .deck {
+        width: 660px;
+        height: 660px;
+    }
+    .deck .card {
+        height: 125px;
+        width: 125px;
+    }
+    .popup {
+        width: 60%;
+    }
+}
