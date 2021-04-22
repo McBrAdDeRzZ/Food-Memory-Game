@@ -62,3 +62,65 @@ header {
     justify-content: center;
     flex-direction: column;
 }
+
+/* ------------ Styles for the Deck of Cards ------------ */
+
+.deck {
+    width: 85%;
+    background: var(--bg-light);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 3rem;
+}
+
+.deck .card {
+    height: 3rem;
+    width: 3rem;
+    margin: 0.2rem 0.2rem;
+    background: var(--bg-black);
+    font-size: 0;
+    color: var(--txt-white);
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deck .card.open {
+    transform: rotateY(0);
+    background: var(--bg-open);
+    cursor: default;
+    animation-name: flipInY;
+    backface-visibility: visible;
+    animation-duration: .75s;
+}
+
+.deck .card.show {
+    font-size: 2rem;
+}
+
+.deck .card.match {
+    cursor: default;
+    background: var(--bg-matched);
+    font-size: 2rem;
+    animation-name: rubberBand;
+    backface-visibility: visible;
+    animation-duration: 750ms;
+}
+
+.deck .card.unmatched {
+    animation-name: pulse;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    animation-duration: 750ms;
+    background: var(--bg-unmatched);
+}
+
+.deck .card.disabled {
+    pointer-events: none;
+}
