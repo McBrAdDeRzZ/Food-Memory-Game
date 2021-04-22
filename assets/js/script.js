@@ -75,3 +75,44 @@ var displayCard = function()
     this.classList.toggle( "show" );
     this.classList.toggle( "disabled" );
 };
+// Check if cards are match or not
+function cardOpen()
+{
+    openedCards.push( this );
+    var len = openedCards.length;
+    if ( len === 2 )
+    {
+        moveCounter();
+        if ( openedCards[ 0 ].type === openedCards[ 1 ].type )
+        {
+            matched();
+        }
+        else
+        {
+            unmatched();
+        }
+    }
+};
+// Functions when cards match
+function matched()
+{
+    openedCards[ 0 ].classList.add( "match", "disabled" );
+    openedCards[ 1 ].classList.add( "match", "disabled" );
+    openedCards[ 0 ].classList.remove( "show", "open", "no-event" );
+    openedCards[ 1 ].classList.remove( "show", "open", "no-event" );
+    openedCards = [];
+}
+// Functions when cards don't match
+function unmatched()
+{
+    openedCards[ 0 ].classList.add( "unmatched" );
+    openedCards[ 1 ].classList.add( "unmatched" );
+    disable();
+    setTimeout( function()
+    {
+        openedCards[ 0 ].classList.remove( "show", "open", "no-event", "unmatched" );
+        openedCards[ 1 ].classList.remove( "show", "open", "no-event", "unmatched" );
+        enable();
+        openedCards = [];
+    }, 1100 );
+}
