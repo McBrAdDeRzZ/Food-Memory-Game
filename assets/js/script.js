@@ -136,3 +136,63 @@ function enable()
         }
     } );
 }
+// Player's moves
+function moveCounter()
+{
+    moves++;
+    counter.innerHTML = moves;
+    //Start timer on first card clicked
+    if ( moves == 1 )
+    {
+        second = 0;
+        minute = 0;
+        hour = 0;
+        startTimer();
+    }
+    // Setting rates based on moves
+    if ( moves > 8 && moves < 20 )
+    {
+        for ( i = 0; i < 3; i++ )
+        {
+            if ( i > 1 )
+            {
+                stars[ i ].style.visibility = "collapse";
+            }
+        }
+    }
+    else if ( moves > 21 )
+    {
+        for ( i = 0; i < 3; i++ )
+        {
+            if ( i > 0 )
+            {
+                stars[ i ].style.visibility = "collapse";
+            }
+        }
+    }
+}
+// Game timer
+var second = 0,
+    minute = 0;
+hour = 0;
+var timer = document.querySelector( ".timer" );
+var interval;
+
+function startTimer()
+{
+    interval = setInterval( function()
+    {
+        timer.innerHTML = minute + "mins " + second + "secs";
+        second++;
+        if ( second == 60 )
+        {
+            minute++;
+            second = 0;
+        }
+        if ( minute == 60 )
+        {
+            hour++;
+            minute = 0;
+        }
+    }, 1000 );
+}
