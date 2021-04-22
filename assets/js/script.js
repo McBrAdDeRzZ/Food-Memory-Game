@@ -68,3 +68,10 @@ function startGame()
     timer.innerHTML = "0 mins 0 secs";
     clearInterval( interval );
 }
+// Shows the cards
+var displayCard = function()
+{
+    this.classList.toggle( "open" );
+    this.classList.toggle( "show" );
+    this.classList.toggle( "disabled" );
+};
