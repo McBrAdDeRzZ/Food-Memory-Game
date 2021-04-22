@@ -181,3 +181,24 @@ header {
     overflow: auto;
     text-align: center;
 }
+
+.show {
+    visibility: visible;
+    opacity: 100;
+}
+
+#starRating li {
+    display: inline-block;
+}
+
+#play-again {
+    background: var(--bg-black);
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: var(--txt-white);
+    border-radius: 1rem;
+}
