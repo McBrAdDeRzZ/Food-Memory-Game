@@ -196,3 +196,45 @@ function startTimer()
         }
     }, 1000 );
 }
+// When all cards match show modal
+function congratulations()
+{
+    if ( matchedCard.length == 16 )
+    {
+        clearInterval( interval );
+        finalTime = timer.innerHTML;
+        // Show congratulations modal
+        modal.classList.add( "show" );
+        // Star rating variable
+        var starRating = document.querySelector( ".stars" ).innerHTML;
+        //Showing move, rating, time on modal
+        document.getElementById( "finalMove" ).innerHTML = moves;
+        document.getElementById( "starRating" ).innerHTML = starRating;
+        document.getElementById( "totalTime" ).innerHTML = finalTime;
+        // Close icon on modal
+        closeModal();
+    };
+}
+// Close icon on modal
+function closeModal()
+{
+    closeicon.addEventListener( "click", function( e )
+    {
+        modal.classList.remove( "show" );
+        startGame();
+    } );
+}
+// Play again 
+function playAgain()
+{
+    modal.classList.remove( "show" );
+    startGame();
+}
+// Loop to add event listeners to each card
+for ( var i = 0; i < cards.length; i++ )
+{
+    card = cards[ i ];
+    card.addEventListener( "click", displayCard );
+    card.addEventListener( "click", cardOpen );
+    card.addEventListener( "click", congratulations );
+};
