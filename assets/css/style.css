@@ -124,3 +124,43 @@ header {
 .deck .card.disabled {
     pointer-events: none;
 }
+
+/* ------------ Congratulations Modal ------------ */
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: var(--bg-white);
+    border-radius: 1rempx;
+    width: 80%;
+    position: relative;
+    transition: all 500ms ease-in-out;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: var(--txt-black);
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--txt-black);
+}
+
+.popup .close:hover {
+    color: var(--txt-matched);
+}
+
+.popup .content-1, .content-2 {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+}
