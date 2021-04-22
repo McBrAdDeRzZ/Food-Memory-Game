@@ -125,6 +125,39 @@ header {
     pointer-events: none;
 }
 
+/* ------------ Styles for the Score Panel ------------ */
+
+.score-panel {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.score-panel .stars {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 0.5rem 0 0;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+}
+
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+}
+
+.fa-star {
+    color: var(--txt-star);
+}
+
+.timer {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
 /* ------------ Congratulations Modal ------------ */
 
 .overlay {
