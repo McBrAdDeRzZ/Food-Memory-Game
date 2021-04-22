@@ -48,6 +48,23 @@
             <li class="card" type="pizza"><i class="fas fa-pizza-slice"></i></li>
             <li class="card" type="cookie"><i class="fas fa-cookie"></i></li>
         </ul>
+
+        <div class="overlay" id="popup1">
+            <div class="popup">
+                <h2>Congratulations</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content-1">
+                    <p>Congratulations you're a winner</p>
+                </div>
+
+                <div class="content-2">
+                    <p>You made <span id="finalMove"></span> moves</p>
+                    <p>in <span id="totalTime"></span></p>
+                    <p>Rating: <span id="starRating"></span></p>
+                </div>
+                <button id="play-again" onclick="playAgain()">Play again</button>
+            </div>
+        </div>
     </div>
     
     <script src="./assets/js/script.js"></script>
