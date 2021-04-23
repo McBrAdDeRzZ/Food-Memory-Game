@@ -11,19 +11,19 @@ This is a card matching game to demonstrate the different uses of JavaScript and
 
 #### First Time Visitor Goals
 
-1. As a First Time Visitor, 
-2. As a First Time Visitor, 
-3. As a First Time Visitor,
+1. As a First Time Visitor, I would like to have fun playing the game.
+2. As a First Time Visitor, I want to immediately know what to do.
+3. As a First Time Visitor, I want to see the time and moves I made during and after the game.
 
 #### Returning Visitor Goals
 
-1. As a Returning Visitor, 
+1. As a Returning Visitor, I would like to see if I can beat my previous score
 2. As a Returning Visitor, 
 3. As a Returning Visitor, 
 
 #### Frequent User Goals
 
-1. As a Frequent User, 
+1. As a Frequent User, I want to have fun and challenge friends to beat my score
 2. As a Frequent User, 
 3. As a Frequent User, 
 
