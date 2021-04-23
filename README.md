@@ -44,9 +44,9 @@ This is a card matching game to demonstrate the different uses of JavaScript and
 
 ### Wireframes
 
-- Home Page Wireframe - [View]()
+- Desktop Wireframe - [View](https://github.com/McBrAdDeRzZ/food-memory-game/blob/master/assets/images/desktop-wireframe.jpeg?raw=true)
 
-- Mobile Wireframe - [View]()
+- Mobile Wireframe - [View](https://github.com/McBrAdDeRzZ/food-memory-game/blob/master/assets/images/mobile-wireframe.jpeg?raw=true)
 
 ## Features
 
