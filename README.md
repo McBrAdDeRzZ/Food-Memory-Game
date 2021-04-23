@@ -2,11 +2,8 @@
 
 [View the live project here.]()
 
-
 ## Description of the Website
 This is a card matching game to demonstrate the different uses of JavaScript and how to incorporate it with HTML and CSS.
-
-
 
 ## User Experience (UX)
 
@@ -150,7 +147,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as iMac, Macbook Pro and the iPhone 11.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
