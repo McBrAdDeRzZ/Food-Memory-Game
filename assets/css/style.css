@@ -40,7 +40,7 @@ html, body {
 /* ------------ Basic Styling ------------ */
 
 body {
-    background: var(--bg-white);
+    background: var(--bg-light);
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 300;
@@ -81,7 +81,7 @@ header {
     height: 3rem;
     width: 3rem;
     margin: 0.2rem 0.2rem;
-    background: var(--bg-black);
+    background: var(--bg-dark);
     font-size: 0;
     color: var(--txt-white);
     border-radius: 1rem;
@@ -308,7 +308,7 @@ header {
 }
 
 @media (min-width: 768px) {
-    
+
     .container {
         font-size: 22px;
     }
