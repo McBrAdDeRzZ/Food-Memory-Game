@@ -47,12 +47,11 @@ This is a card matching game to demonstrate the different uses of JavaScript and
 
 - Mobile Wireframe - [View]()
 
-
 ## Features
 
 - Responsive on all device sizes
 
-- Interactive elements
+- Interactive cards and buttons
 
 ## Technologies Used
 
@@ -84,9 +83,11 @@ GitHub is used to store the projects code after being pushed from Git.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+- [W3C Markup Validator]() - [Results]()
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+- [W3C CSS Validator]() - [Results]()
+
+- [JSHint]() - [Results]()
 
 ### Testing User Stories from User Experience (UX) Section
 
