@@ -44,9 +44,9 @@ This is a card matching game to demonstrate the different uses of JavaScript and
 
 ### Wireframes
 
-- Home Page Wireframe - [View](https://github.com/McBrAdDeRzZ/food-memory-game/blob/master/assets/images/IMG_1931.jpeg?raw=true)
+- Home Page Wireframe - [View]()
 
-- Mobile Wireframe - [View](https://github.com/McBrAdDeRzZ/food-memory-game/blob/master/assets/images/IMG_1934.jpeg?raw=true)
+- Mobile Wireframe - [View]()
 
 ## Features
 
@@ -83,6 +83,7 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 GitHub is used to store the projects code after being pushed from Git.
 
 ## Testing
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [W3C Markup Validator]() - [Results]()
@@ -159,7 +160,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
-- 
+- The cards fall on to another line on certain screen sizes
 
 ## Deployment
 
