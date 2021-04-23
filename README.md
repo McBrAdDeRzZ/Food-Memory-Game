@@ -20,19 +20,17 @@ This is a card matching game to demonstrate the different uses of JavaScript and
 
 1. As a Returning Visitor, I would like to see if I can beat my previous score.
 2. As a Returning Visitor, I would like to keep playing so that I can improve.
-3. As a Returning Visitor, 
 
 #### Frequent User Goals
 
 1. As a Frequent User, I want to have fun and challenge friends to beat my score.
 2. As a Frequent User, I want to easily play on any device with no trouble.
-3. As a Frequent User, 
 
 ## Design
 
 ### Colour Scheme
 
-- I used a light greyscale theme for my website introducing colours when you start to play the game
+- I used a light greyscale theme for my game to give it a modern feel introducing colours when you start to play the game.
 
 ### Typography
 
@@ -86,19 +84,19 @@ GitHub is used to store the projects code after being pushed from Git.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://validator.w3.org/) - No Errors (Errors due to custom code)
+- [W3C Markup Validator](https://validator.w3.org/) - No Errors
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - No Errors (Errors due to custom code)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - No Errors
 
 - [JSHint](https://jshint.com/) - No Errors
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The Website was tested on Google Chrome, Firefox and Safari browsers.
 
 -   The website was viewed on a variety of devices such as iMac, Macbook Pro, iPad, iPhone 5 and the iPhone 11.
 
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Friends and family members were asked to point out any bugs and user experience issues.
 
 ### Known Bugs
 
@@ -154,13 +152,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-- Font Awesome was used for all of the icons on the cards
+- [Font Awesome](https://fontawesome.com/) was used for all of the icons on the cards
 
-- HTML Color Codes was used to get colours for my cards
-
-### Content
-
--   All content was written by the developer.
+- [HTML Color Codes](https://htmlcolorcodes.com/) was used to get colours for my cards
 
 ### Acknowledgements
 

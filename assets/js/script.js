@@ -83,7 +83,7 @@ function cardOpen()
     if ( len === 2 )
     {
         moveCounter();
-        if ( openedCards[ 0 ].type === openedCards[ 1 ].type )
+        if ( openedCards[ 0 ].getAttribute('data-type') === openedCards[ 1 ].getAttribute('data-type') )
         {
             matched();
         }
@@ -238,4 +238,3 @@ for ( var i = 0; i < cards.length; i++ )
     card.addEventListener( "click", cardOpen );
     card.addEventListener( "click", congratulations );
 }
-main();
