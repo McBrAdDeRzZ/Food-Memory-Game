@@ -13,9 +13,9 @@ let matchedCard = document.getElementsByClassName( "match" );
 // Stars list
 let starsList = document.querySelectorAll( ".stars li" );
 // Close icon in modal
-let closeicon = document.querySelector( ".close" );
+let closeIcon = document.querySelector( ".close" );
 // Modal
-let modal = document.getElementById( "popup1" )
+let modal = document.getElementById( "popup1" );
 // Array for opened cards
 var openedCards = [];
 // Shuffles cards
@@ -32,7 +32,7 @@ function shuffle( array )
         array[ randomIndex ] = temporaryValue;
     }
     return array;
-};
+}
 // Shuffles cards when page is refreshed or loads
 document.body.onload = startGame();
 // Starts a new game 
@@ -92,7 +92,7 @@ function cardOpen()
             unmatched();
         }
     }
-};
+}
 // Functions when cards match
 function matched()
 {
@@ -213,7 +213,7 @@ function congratulations()
         document.getElementById( "totalTime" ).innerHTML = finalTime;
         // Close icon on modal
         closeModal();
-    };
+    }
 }
 // Close icon on modal
 function closeModal()
@@ -237,4 +237,5 @@ for ( var i = 0; i < cards.length; i++ )
     card.addEventListener( "click", displayCard );
     card.addEventListener( "click", cardOpen );
     card.addEventListener( "click", congratulations );
-};
+}
+main();

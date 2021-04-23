@@ -115,7 +115,6 @@ header {
 
 .deck .card.unmatched {
     animation-name: pulse;
-    -webkit-backface-visibility: visible;
     backface-visibility: visible;
     animation-duration: 750ms;
     background: var(--bg-unmatched);
@@ -217,7 +216,7 @@ header {
 
 .show {
     visibility: visible;
-    opacity: 100;
+    opacity: 100%;
 }
 
 #starRating li {

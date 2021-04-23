@@ -1,6 +1,6 @@
 <h1 align="center">Food Memory Game</h1>
 
-[View the live project here.]()
+[View the live project here.](https://mcbradderzz.github.io/food-memory-game/)
 
 ## Description of the Website
 This is a card matching game to demonstrate the different uses of JavaScript and how to incorporate it with HTML and CSS.
@@ -63,11 +63,11 @@ This is a card matching game to demonstrate the different uses of JavaScript and
 
 ### Frameworks, Libraries & Programs Used
 
-- [Google Fonts:](https://fonts.google.com/)
+- [Google Fonts](https://fonts.google.com/)
 
 Google fonts were used to import the 'Montserrat' font into the style.css file with a fallback of Arial then Helvetica and finally sans-serif.
 
-- [Font Awesome:](https://fontawesome.com/)
+- [Font Awesome](https://fontawesome.com/)
 
 Font Awesome was used on all of the cards to add icons for aesthetic and UX purposes.
 
