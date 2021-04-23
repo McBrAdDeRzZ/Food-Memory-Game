@@ -18,13 +18,13 @@ This is a card matching game to demonstrate the different uses of JavaScript and
 
 #### Returning Visitor Goals
 
-1. As a Returning Visitor, I would like to see if I can beat my previous score
-2. As a Returning Visitor, 
+1. As a Returning Visitor, I would like to see if I can beat my previous score.
+2. As a Returning Visitor, I would like to keep playing so that I improve.
 3. As a Returning Visitor, 
 
 #### Frequent User Goals
 
-1. As a Frequent User, I want to have fun and challenge friends to beat my score
+1. As a Frequent User, I want to have fun and challenge friends to beat my score.
 2. As a Frequent User, 
 3. As a Frequent User, 
 
