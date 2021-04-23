@@ -308,6 +308,7 @@ header {
 }
 
 @media (min-width: 768px) {
+    
     .container {
         font-size: 22px;
     }
