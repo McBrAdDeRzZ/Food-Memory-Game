@@ -19,13 +19,13 @@ This is a card matching game to demonstrate the different uses of JavaScript and
 #### Returning Visitor Goals
 
 1. As a Returning Visitor, I would like to see if I can beat my previous score.
-2. As a Returning Visitor, I would like to keep playing so that I improve.
+2. As a Returning Visitor, I would like to keep playing so that I can improve.
 3. As a Returning Visitor, 
 
 #### Frequent User Goals
 
 1. As a Frequent User, I want to have fun and challenge friends to beat my score.
-2. As a Frequent User, 
+2. As a Frequent User, I want to easily play on any device with no trouble.
 3. As a Frequent User, 
 
 ## Design
@@ -86,11 +86,11 @@ GitHub is used to store the projects code after being pushed from Git.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator]() - [Results]()
+- [W3C Markup Validator](https://validator.w3.org/) - No Errors (Errors due to custom code)
 
-- [W3C CSS Validator]() - [Results]()
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - No Errors (Errors due to custom code)
 
-- [JSHint]() - [Results]()
+- [JSHint](https://jshint.com/) - No Errors
 
 ### Further Testing
 
@@ -102,7 +102,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
-- The cards fall on to another line on certain screen sizes
+- Card(s) fall on to another line on certain screen sizes
 
 ## Deployment
 
